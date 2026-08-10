@@ -2,6 +2,11 @@ name: Update market prices
 
 on:
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/update_prices.py"
+      - ".github/workflows/update-prices.yml"
   schedule:
     - cron: "*/5 * * * *"
 
