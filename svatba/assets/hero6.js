@@ -92,3 +92,19 @@ setTimeout(()=>{
   $('#quizFinish').addEventListener('click',finishQuiz);
   $('#quizReset').addEventListener('click',resetQuiz);
 },120);
+
+/* Show the account number directly next to the wedding-gift QR and make it easy to copy. */
+setTimeout(()=>{
+  const gift=document.getElementById('gift');
+  if(!gift||gift.querySelector('.gift-account'))return;
+  const qr=gift.querySelector('.qrbox');
+  const box=document.createElement('div');
+  box.className='gift-account';
+  box.style.cssText='margin-top:14px;padding:14px;border-radius:16px;background:var(--ps);text-align:center;border:1px solid var(--line)';
+  box.innerHTML='<div style="font-size:10px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin-bottom:5px">Číslo účtu</div><div style="font:400 22px Georgia,serif;margin-bottom:10px">1023638212/5500</div><button type="button" class="btn yellow" id="copyGiftAccount">📋 Kopírovat číslo účtu</button>';
+  if(qr)qr.insertAdjacentElement('afterend',box);else gift.querySelector('.modal')?.appendChild(box);
+  box.querySelector('#copyGiftAccount')?.addEventListener('click',async()=>{
+    try{await navigator.clipboard.writeText('1023638212/5500');toastMessage('Číslo účtu zkopírováno');}
+    catch(e){toastMessage('Číslo účtu: 1023638212/5500');}
+  });
+},180);
