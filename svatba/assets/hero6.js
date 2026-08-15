@@ -156,3 +156,63 @@ setTimeout(()=>{
     if(p)p.textContent='Navigace, kalendář a písnička pro DJ.';
   }
 },700);
+
+/* Expanded pool of 50 wedding missions. */
+setTimeout(()=>{
+  const weddingMissions=[
+    'Udělej selfie s někým, koho dnes poznáváš poprvé.',
+    'Vyfoť nejhezčí detail výzdoby.',
+    'Vytáhni někoho na parket, kdo ještě netančil.',
+    'Pošli novomanželům jednu fotku, která tě dnes rozesmála.',
+    'Najdi hosta, který zná Romana nejdéle.',
+    'Najdi hosta, který zná Romču nejdéle.',
+    'Vyfoť skupinku alespoň pěti lidí, kteří se smějí.',
+    'Zjisti, kdo přijel na svatbu z největší dálky.',
+    'Vyfoť nejvtipnější taneční pohyb večera.',
+    'Připij si s někým, koho jsi před dneškem neznal/a.',
+    'Najdi někoho se stejným křestním jménem jako máš ty.',
+    'Vyfoť moment, který podle tebe nejlépe vystihuje dnešní svatbu.',
+    'Řekni nevěstě jeden upřímný kompliment.',
+    'Řekni ženichovi jeden upřímný kompliment.',
+    'Zjisti, kdo z hostů má nejdelší vztah.',
+    'Najdi pár, který je spolu nejkratší dobu.',
+    'Udělej fotku s někým z opačné strany rodiny.',
+    'Vyfoť nejbarevnější outfit mezi hosty.',
+    'Najdi člověka, který dnes urazil nejvíc kilometrů.',
+    'Získej fotku tří generací na jednom snímku.',
+    'Vyfoť někoho při opravdovém záchvatu smíchu.',
+    'Zatanči si alespoň jednu celou písničku s někým novým.',
+    'Zjisti oblíbenou písničku jednoho z hostů a pošli ji jako tip DJovi.',
+    'Najdi hosta, který chodil s Romanem do školy.',
+    'Najdi hosta, který chodil s Romčou do školy.',
+    'Vyfoť nejhezčí pár bot na svatbě.',
+    'Udělej fotku, na které je alespoň sedm hostů.',
+    'Najdi někoho, kdo má narozeniny nejblíž dnešnímu datu.',
+    'Vyfoť přípitek z netradičního úhlu.',
+    'Zjisti, kdo šel dnes spát nejpozději před svatbou.',
+    'Najdi někoho, kdo umí říct „na zdraví“ alespoň ve třech jazycích.',
+    'Udělej společnou fotku s někým, kdo má stejnou barvu oblečení jako ty.',
+    'Vyfoť nejromantičtější moment, který během večera uvidíš.',
+    'Přesvědč dva další hosty, aby s tebou šli na parket.',
+    'Zjisti, kdo z hostů má nejvíc sourozenců.',
+    'Najdi někoho, kdo byl na svatbě jako poslední ženich nebo nevěsta.',
+    'Vyfoť nejhezčí jídlo nebo dezert večera.',
+    'Udělej fotku s někým o alespoň jednu generaci starším.',
+    'Udělej fotku s někým o alespoň jednu generaci mladším.',
+    'Najdi člověka, který zná oba novomanžele déle než deset let.',
+    'Zjisti od hosta jednu vtipnou historku o Romanovi.',
+    'Zjisti od hosta jednu vtipnou historku o Romče.',
+    'Vyfoť taneční parket ve chvíli, kdy je úplně plný.',
+    'Najdi největšího cestovatele mezi hosty a zjisti jeho oblíbenou zemi.',
+    'Dej někomu, koho moc neznáš, symbolický „high five“ a představ se.',
+    'Vyfoť detail, kterého si podle tebe většina hostů nevšimla.',
+    'Najdi dva hosty, kteří se dnes seznámili poprvé, a vyfoť je spolu.',
+    'Udělej fotku s někým, kdo má na sobě něco růžového, oranžového nebo žlutého.',
+    'Najdi největšího tanečníka večera a dej si s ním jednu písničku.',
+    'Na konci večera vyber svou nejoblíbenější fotku a nahraj ji do společného alba.'
+  ];
+  window.newMission=function(){
+    const el=document.getElementById('missionText');
+    if(el)el.textContent=weddingMissions[Math.floor(Math.random()*weddingMissions.length)];
+  };
+},900);
