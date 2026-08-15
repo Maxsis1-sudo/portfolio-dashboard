@@ -155,6 +155,27 @@ setTimeout(()=>{
     if(h)h.textContent='Další užitečné';
     if(p)p.textContent='Navigace, kalendář a písnička pro DJ.';
   }
+
+  /* Keep only Wedding Mission in the guest features section. */
+  const extras=document.querySelector('.extras');
+  if(extras){
+    [...extras.querySelectorAll('.extra')].forEach(card=>{
+      const action=card.getAttribute('onclick')||'';
+      if(!action.includes("'mission'"))card.remove();
+    });
+    extras.style.gridTemplateColumns='1fr';
+    const missionCard=extras.querySelector('.extra');
+    if(missionCard){
+      missionCard.style.maxWidth='360px';
+      missionCard.style.width='100%';
+      missionCard.style.margin='0 auto';
+    }
+    const sec=extras.closest('.section');
+    const h=sec?.querySelector('.head h2');
+    const p=sec?.querySelector('.head p');
+    if(h)h.textContent='Svatební mise';
+    if(p)p.textContent='Vylosuj si náhodný úkol pro zábavu.';
+  }
 },700);
 
 /* Expanded pool of 50 wedding missions. */
