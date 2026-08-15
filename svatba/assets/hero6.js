@@ -1,110 +1,118 @@
-/* Load the previous wedding-site enhancements, then replace the quiz with the personal version. */
+/* Load the complete previous wedding-site version first. */
 try{
   const x=new XMLHttpRequest();
-  x.open('GET','https://raw.githubusercontent.com/Maxsis1-sudo/portfolio-dashboard/0aadf8eb5a2cde85967740f600e57d6caf75acbd/svatba/assets/hero6.js',false);
+  x.open('GET','https://raw.githubusercontent.com/Maxsis1-sudo/portfolio-dashboard/42a2ba89d3e5674a540ab0b75ee76909883ecf84/svatba/assets/hero6.js',false);
   x.send(null);
   if(x.status>=200&&x.status<300)(0,eval)(x.responseText);
 }catch(e){}
 
+/* Automatic form delivery to Roman's email via FormSubmit. */
 setTimeout(()=>{
   const $=(s,r=document)=>r.querySelector(s);
-  const $$=(s,r=document)=>[...r.querySelectorAll(s)];
+  const EMAIL_ENDPOINT='https://formsubmit.co/ajax/fronekroman@seznam.cz';
 
-  const oldBtn=$('.quiz-extra');
-  const extras=$('.extras');
-  if(oldBtn) oldBtn.remove();
-  const oldDialog=$('#quiz');
-  if(oldDialog) oldDialog.remove();
-
-  if(!extras)return;
-
-  const quizBtn=document.createElement('button');
-  quizBtn.className='extra quiz-extra';
-  quizBtn.innerHTML='<span class="icon">❓</span><strong>Mini kvíz</strong><small>Jak dobře znáte Romana & Romču?</small>';
-  extras.appendChild(quizBtn);
-
-  const quizDialog=document.createElement('dialog');
-  quizDialog.id='quiz';
-  quizDialog.innerHTML='<div class="modal"><div class="mh"><h3>Jak dobře znáte Romana & Romču?</h3><button class="x" type="button">×</button></div><p>10 rychlých otázek. Bez Googlu a bez nápovědy od Chilli. 😄</p><div id="quizBody"></div><div id="quizScore" class="quiz-score"></div><div class="actions"><button class="btn orange" id="quizFinish" type="button">Vyhodnotit</button><button class="btn yellow" id="quizReset" type="button">Zkusit znovu</button></div></div>';
-  document.body.appendChild(quizDialog);
-
-  const quizData=[
-    {q:'❤️ Kde se Roman a Romča potkali?',o:['Přes společné kamarády','Na Tinderu','U baru ve tři ráno'],a:1},
-    {q:'🍔 Kdo toho sní víc?',o:['Roman','Romča','Chilli, když se nikdo nedívá'],a:1},
-    {q:'🐶 Jak se jmenuje jejich pes?',o:['Charlie','Chilli','Čenda'],a:1},
-    {q:'💍 Kde proběhlo požádání o ruku?',o:['Na dovolené u moře','Ve Stromovce','Doma při Netflixu'],a:1},
-    {q:'📅 Kdo je větší plánovač?',o:['Roman','Romča','Chilli – ten plánuje hlavně jídlo'],a:1},
-    {q:'🔥 Kdo je větší střela?',o:['Roman','Romča','Po pár drincích se rozdíl maže'],a:0},
-    {q:'⏰ Kdo chodí častěji pozdě?',o:['Roman','Romča','Oba tvrdí, že ten druhý'],a:1},
-    {q:'🔑 Kdo častěji hledá telefon, klíče nebo něco, co měl ještě před minutou v ruce?',o:['Roman','Romča','Chilli to schoval'],a:1},
-    {q:'😴 Kdo usne dřív u filmu?',o:['Roman','Romča','Chilli – ještě před úvodními titulky'],a:1},
-    {q:'🍕 Kdo častěji řekne „nemám hlad“ a pak sní půlku jídla tomu druhému?',o:['Roman','Romča','Oba – proto se objednává radši navíc'],a:1}
-  ];
-
-  let answers={};
-
-  function renderQuiz(){
-    const body=$('#quizBody');
-    if(!body)return;
-    body.innerHTML='';
-    quizData.forEach((x,i)=>{
-      const d=document.createElement('div');
-      d.className='quiz-q';
-      d.innerHTML='<b>'+(i+1)+'. '+x.q+'</b><div class="quiz-options">'+x.o.map((v,j)=>`<button type="button" data-q="${i}" data-a="${j}">${v}</button>`).join('')+'</div>';
-      body.appendChild(d);
+  async function sendWeddingForm(payload){
+    const response=await fetch(EMAIL_ENDPOINT,{
+      method:'POST',
+      headers:{'Content-Type':'application/json','Accept':'application/json'},
+      body:JSON.stringify({...payload,_template:'table',_url:location.href})
     });
-    $$('.quiz-options button',body).forEach(b=>b.addEventListener('click',()=>{
-      const i=Number(b.dataset.q),j=Number(b.dataset.a);
-      answers[i]=j;
-      b.parentElement.querySelectorAll('button').forEach(x=>x.classList.remove('chosen'));
-      b.classList.add('chosen');
-    }));
+    let data={};
+    try{data=await response.json()}catch(e){}
+    if(!response.ok||data.success===false)throw new Error(data.message||'Form could not be sent');
+    return data;
   }
 
-  function finishQuiz(){
-    const unanswered=quizData.length-Object.keys(answers).length;
-    const box=$('#quizScore');
-    if(!box)return;
-    box.style.display='block';
-    if(unanswered){
-      box.innerHTML=`<b>Ještě ${unanswered}</b>${unanswered===1?'otázka čeká na odpověď.':'otázek čeká na odpověď.'}`;
-      box.scrollIntoView({behavior:'smooth',block:'nearest'});
-      return;
+  /* RSVP: replace old share-based handler with automatic email submission. */
+  const old=$('#rsvpForm');
+  if(old){
+    const form=old.cloneNode(true);
+    old.replaceWith(form);
+    window.rsvpForm=form;
+
+    const submit=form.querySelector('button[type="submit"]');
+    if(submit)submit.textContent='Odeslat potvrzení';
+
+    const save=form.querySelector('button[type="button"]');
+    if(save)save.remove();
+
+    if(!form.querySelector('.privacy-note')){
+      const note=document.createElement('p');
+      note.className='privacy-note';
+      note.style.cssText='font-size:10px;color:var(--muted);margin:10px 0 0;line-height:1.45';
+      note.textContent='Údaje slouží pouze k organizaci svatby.';
+      form.appendChild(note);
     }
-    const score=quizData.reduce((n,x,i)=>n+(answers[i]===x.a),0);
-    let msg='Přiznej se, přišel jsi hlavně na hostinu. 😄';
-    if(score===10)msg='Podezřelé. Víš toho až moc. 😄';
-    else if(score>=7)msg='Skoro člen rodiny. 💛';
-    else if(score>=4)msg='Pozvánku sis zasloužil. 🧡';
-    box.innerHTML=`<b>${score} / ${quizData.length}</b>${msg}`;
-    box.scrollIntoView({behavior:'smooth',block:'nearest'});
+
+    try{
+      const saved=JSON.parse(localStorage.getItem('roman-romca-rsvp')||'null');
+      if(saved)Object.entries(saved).forEach(([k,v])=>{if(form.elements[k])form.elements[k].value=v});
+    }catch(e){}
+
+    form.addEventListener('submit',async e=>{
+      e.preventDefault();
+      if(!form.reportValidity())return;
+      const f=new FormData(form);
+      const btn=form.querySelector('button[type="submit"]');
+      const original=btn?.textContent||'Odeslat potvrzení';
+      if(btn){btn.disabled=true;btn.textContent='Odesílám…';}
+      const payload={
+        _subject:'💒 Nové potvrzení účasti – Roman & Romča',
+        'Typ formuláře':'Potvrzení účasti',
+        'Jméno':f.get('name')||'-',
+        'Účast':f.get('attend')||'-',
+        'Počet osob':f.get('adults')||'-',
+        'Alergie / dieta / poznámka':f.get('note')||'-'
+      };
+      try{
+        localStorage.setItem('roman-romca-rsvp',JSON.stringify(Object.fromEntries(f)));
+        await sendWeddingForm(payload);
+        toastMessage('Děkujeme, potvrzení máme ❤️');
+        setTimeout(()=>{try{document.getElementById('rsvp')?.close()}catch(e){}},700);
+      }catch(err){
+        toastMessage('Nepodařilo se odeslat. Zkuste to prosím znovu.');
+      }finally{
+        if(btn){btn.disabled=false;btn.textContent=original;}
+      }
+    });
   }
 
-  function resetQuiz(){
-    answers={};
-    const box=$('#quizScore');
-    if(box)box.style.display='none';
-    renderQuiz();
+  /* Song request: add guest name and send directly instead of opening Share. */
+  const songDialog=$('#song');
+  if(songDialog){
+    const songField=$('#songInput')?.closest('.f');
+    if(songField&&!$('#songName')){
+      const nameField=document.createElement('div');
+      nameField.className='f';
+      nameField.innerHTML='<label>Jméno (volitelně)</label><input id="songName" placeholder="Kdo posílá tip?">';
+      songField.insertAdjacentElement('beforebegin',nameField);
+    }
+    const btn=songDialog.querySelector('.actions .btn');
+    if(btn)btn.textContent='Odeslat tip';
+
+    window.shareSong=async function(){
+      const song=$('#songInput')?.value.trim();
+      const name=$('#songName')?.value.trim()||'-';
+      if(!song)return toastMessage('Napište písničku');
+      const b=songDialog.querySelector('.actions .btn');
+      const original=b?.textContent||'Odeslat tip';
+      if(b){b.disabled=true;b.textContent='Odesílám…';}
+      try{
+        await sendWeddingForm({
+          _subject:'🎵 Nový tip na písničku – Roman & Romča',
+          'Typ formuláře':'Tip na písničku',
+          'Jméno':name,
+          'Písnička':song
+        });
+        toastMessage('Tip na písničku odeslán 🎵');
+        if($('#songInput'))$('#songInput').value='';
+        if($('#songName'))$('#songName').value='';
+        setTimeout(()=>{try{songDialog.close()}catch(e){}},700);
+      }catch(err){
+        toastMessage('Tip se nepodařilo odeslat. Zkuste to znovu.');
+      }finally{
+        if(b){b.disabled=false;b.textContent=original;}
+      }
+    };
   }
-
-  quizDialog.querySelector('.x').addEventListener('click',()=>quizDialog.close());
-  quizBtn.addEventListener('click',()=>{resetQuiz();quizDialog.showModal()});
-  $('#quizFinish').addEventListener('click',finishQuiz);
-  $('#quizReset').addEventListener('click',resetQuiz);
-},120);
-
-/* Show the account number directly next to the wedding-gift QR and make it easy to copy. */
-setTimeout(()=>{
-  const gift=document.getElementById('gift');
-  if(!gift||gift.querySelector('.gift-account'))return;
-  const qr=gift.querySelector('.qrbox');
-  const box=document.createElement('div');
-  box.className='gift-account';
-  box.style.cssText='margin-top:14px;padding:14px;border-radius:16px;background:var(--ps);text-align:center;border:1px solid var(--line)';
-  box.innerHTML='<div style="font-size:10px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin-bottom:5px">Číslo účtu</div><div style="font:400 22px Georgia,serif;margin-bottom:10px">1023638212/5500</div><button type="button" class="btn yellow" id="copyGiftAccount">📋 Kopírovat číslo účtu</button>';
-  if(qr)qr.insertAdjacentElement('afterend',box);else gift.querySelector('.modal')?.appendChild(box);
-  box.querySelector('#copyGiftAccount')?.addEventListener('click',async()=>{
-    try{await navigator.clipboard.writeText('1023638212/5500');toastMessage('Číslo účtu zkopírováno');}
-    catch(e){toastMessage('Číslo účtu: 1023638212/5500');}
-  });
-},180);
+},700);
