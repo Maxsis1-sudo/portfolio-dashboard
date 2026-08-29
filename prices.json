@@ -75,7 +75,7 @@
     "GOOGC.US": {
       "currency": "USD",
       "marketState": "UNKNOWN",
-      "marketTime": 1787947200,
+      "marketTime": 1787947201,
       "price": 342.88,
       "symbol": "GOOG"
     },
@@ -258,5 +258,5 @@
   "source": "Yahoo Finance server refresh",
   "successCount": 34,
   "totalCount": 35,
-  "updated": "2026-08-29T12:05:05.645173+00:00"
+  "updated": "2026-08-29T12:13:24.734897+00:00"
 }
