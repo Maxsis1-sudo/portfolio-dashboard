@@ -4,9 +4,9 @@
   ],
   "fx": {
     "CZK": 1,
-    "EUR": 24.1325,
-    "NOK": 2.2229,
-    "USD": 20.8
+    "EUR": 24.1349,
+    "NOK": 2.2237,
+    "USD": 20.8056
   },
   "quotes": {
     "AAPL.US": {
@@ -40,8 +40,8 @@
     "ASML.NL": {
       "currency": "EUR",
       "marketState": "UNKNOWN",
-      "marketTime": 1788181541,
-      "price": 1475.4,
+      "marketTime": 1788182050,
+      "price": 1474.8,
       "symbol": "ASML.AS"
     },
     "AYRO.US": {
@@ -61,15 +61,15 @@
     "CSG.NL": {
       "currency": "EUR",
       "marketState": "UNKNOWN",
-      "marketTime": 1788181538,
-      "price": 18.606,
+      "marketTime": 1788181872,
+      "price": 18.622,
       "symbol": "CSG.AS"
     },
     "CZG.CZ": {
       "currency": "CZK",
       "marketState": "UNKNOWN",
-      "marketTime": 1788181445,
-      "price": 951.0,
+      "marketTime": 1788182020,
+      "price": 952.0,
       "symbol": "COLT.PR"
     },
     "GOOGC.US": {
@@ -96,7 +96,7 @@
     "IUFS.UK": {
       "currency": "USD",
       "marketState": "UNKNOWN",
-      "marketTime": 1788181258,
+      "marketTime": 1788181645,
       "price": 17.116,
       "symbol": "IUFS.L"
     },
@@ -110,8 +110,8 @@
     "KOA.NO": {
       "currency": "NOK",
       "marketState": "UNKNOWN",
-      "marketTime": 1788180780,
-      "price": 2.0,
+      "marketTime": 1788181639,
+      "price": 2.01,
       "symbol": "KOA.OL"
     },
     "LI.US": {
@@ -243,20 +243,20 @@
     "VWCE.DE": {
       "currency": "EUR",
       "marketState": "UNKNOWN",
-      "marketTime": 1788181541,
-      "price": 167.38,
+      "marketTime": 1788182041,
+      "price": 167.44,
       "symbol": "VWCE.DE"
     },
     "XDW0.DE": {
       "currency": "EUR",
       "marketState": "UNKNOWN",
-      "marketTime": 1788181495,
-      "price": 65.85,
+      "marketTime": 1788182025,
+      "price": 65.83,
       "symbol": "XDW0.DE"
     }
   },
   "source": "Yahoo Finance server refresh",
   "successCount": 34,
   "totalCount": 35,
-  "updated": "2026-08-31T13:21:08.840742+00:00"
+  "updated": "2026-08-31T13:29:24.965071+00:00"
 }
