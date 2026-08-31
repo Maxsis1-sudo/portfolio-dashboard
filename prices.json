@@ -4,9 +4,9 @@
   ],
   "fx": {
     "CZK": 1,
-    "EUR": 24.1594,
-    "NOK": 2.2238,
-    "USD": 20.792
+    "EUR": 24.111,
+    "NOK": 2.2233,
+    "USD": 20.7979
   },
   "quotes": {
     "AAPL.US": {
@@ -54,8 +54,8 @@
     "BABA.US": {
       "currency": "USD",
       "marketState": "UNKNOWN",
-      "marketTime": 1788206399,
-      "price": 113.998,
+      "marketTime": 1788206668,
+      "price": 114.02,
       "symbol": "BABA"
     },
     "CSG.NL": {
@@ -152,8 +152,8 @@
     "NIO.US": {
       "currency": "USD",
       "marketState": "UNKNOWN",
-      "marketTime": 1788206399,
-      "price": 4.24,
+      "marketTime": 1788206668,
+      "price": 4.23,
       "symbol": "NIO"
     },
     "NVAX.US": {
@@ -167,13 +167,13 @@
       "currency": "USD",
       "marketState": "UNKNOWN",
       "marketTime": 1788206401,
-      "price": 220.5,
+      "price": 220.78,
       "symbol": "NVDA"
     },
     "PFE.US": {
       "currency": "USD",
       "marketState": "UNKNOWN",
-      "marketTime": 1788206399,
+      "marketTime": 1788206493,
       "price": 28.46,
       "symbol": "PFE"
     },
@@ -222,8 +222,8 @@
     "TSM.US": {
       "currency": "USD",
       "marketState": "UNKNOWN",
-      "marketTime": 1788206399,
-      "price": 415.0,
+      "marketTime": 1788206403,
+      "price": 415.32,
       "symbol": "TSM"
     },
     "TTWO.US": {
@@ -236,8 +236,8 @@
     "TWLO.US": {
       "currency": "USD",
       "marketState": "UNKNOWN",
-      "marketTime": 1788206399,
-      "price": 235.72,
+      "marketTime": 1788206403,
+      "price": 235.63,
       "symbol": "TWLO"
     },
     "VWCE.DE": {
@@ -258,5 +258,5 @@
   "source": "Yahoo Finance server refresh",
   "successCount": 34,
   "totalCount": 35,
-  "updated": "2026-08-31T20:11:55.927826+00:00"
+  "updated": "2026-08-31T20:20:15.531677+00:00"
 }
