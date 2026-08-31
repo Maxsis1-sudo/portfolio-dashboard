@@ -5,8 +5,8 @@
   "fx": {
     "CZK": 1,
     "EUR": 24.1264,
-    "NOK": 2.2191,
-    "USD": 20.7993
+    "NOK": 2.2196,
+    "USD": 20.7966
   },
   "quotes": {
     "AAPL.US": {
@@ -40,8 +40,8 @@
     "ASML.NL": {
       "currency": "EUR",
       "marketState": "UNKNOWN",
-      "marketTime": 1788161375,
-      "price": 1478.1,
+      "marketTime": 1788161871,
+      "price": 1475.8,
       "symbol": "ASML.AS"
     },
     "AYRO.US": {
@@ -61,15 +61,15 @@
     "CSG.NL": {
       "currency": "EUR",
       "marketState": "UNKNOWN",
-      "marketTime": 1788161350,
-      "price": 18.616,
+      "marketTime": 1788161886,
+      "price": 18.55,
       "symbol": "CSG.AS"
     },
     "CZG.CZ": {
       "currency": "CZK",
       "marketState": "UNKNOWN",
-      "marketTime": 1788161339,
-      "price": 957.0,
+      "marketTime": 1788161590,
+      "price": 954.0,
       "symbol": "COLT.PR"
     },
     "GOOGC.US": {
@@ -103,15 +103,15 @@
     "IUIT.UK": {
       "currency": "USD",
       "marketState": "UNKNOWN",
-      "marketTime": 1788160514,
-      "price": 51.29,
+      "marketTime": 1788161378,
+      "price": 51.255,
       "symbol": "IUIT.L"
     },
     "KOA.NO": {
       "currency": "NOK",
       "marketState": "UNKNOWN",
-      "marketTime": 1788160282,
-      "price": 2.025,
+      "marketTime": 1788161771,
+      "price": 2.015,
       "symbol": "KOA.OL"
     },
     "LI.US": {
@@ -243,20 +243,20 @@
     "VWCE.DE": {
       "currency": "EUR",
       "marketState": "UNKNOWN",
-      "marketTime": 1788161331,
-      "price": 167.66,
+      "marketTime": 1788161887,
+      "price": 167.62,
       "symbol": "VWCE.DE"
     },
     "XDW0.DE": {
       "currency": "EUR",
       "marketState": "UNKNOWN",
-      "marketTime": 1788161193,
-      "price": 65.2,
+      "marketTime": 1788161658,
+      "price": 65.3,
       "symbol": "XDW0.DE"
     }
   },
   "source": "Yahoo Finance server refresh",
   "successCount": 34,
   "totalCount": 35,
-  "updated": "2026-08-31T07:44:47.931709+00:00"
+  "updated": "2026-08-31T07:53:29.791669+00:00"
 }
