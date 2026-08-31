@@ -4,9 +4,9 @@
   ],
   "fx": {
     "CZK": 1,
-    "EUR": 24.1246,
-    "NOK": 2.224,
-    "USD": 20.7975
+    "EUR": 24.1267,
+    "NOK": 2.2246,
+    "USD": 20.8078
   },
   "quotes": {
     "AAPL.US": {
@@ -40,8 +40,8 @@
     "ASML.NL": {
       "currency": "EUR",
       "marketState": "UNKNOWN",
-      "marketTime": 1788178038,
-      "price": 1481.4,
+      "marketTime": 1788178518,
+      "price": 1481.6,
       "symbol": "ASML.AS"
     },
     "AYRO.US": {
@@ -61,14 +61,14 @@
     "CSG.NL": {
       "currency": "EUR",
       "marketState": "UNKNOWN",
-      "marketTime": 1788177910,
-      "price": 18.636,
+      "marketTime": 1788178509,
+      "price": 18.582,
       "symbol": "CSG.AS"
     },
     "CZG.CZ": {
       "currency": "CZK",
       "marketState": "UNKNOWN",
-      "marketTime": 1788177637,
+      "marketTime": 1788178444,
       "price": 950.0,
       "symbol": "COLT.PR"
     },
@@ -110,7 +110,7 @@
     "KOA.NO": {
       "currency": "NOK",
       "marketState": "UNKNOWN",
-      "marketTime": 1788176851,
+      "marketTime": 1788178317,
       "price": 2.01,
       "symbol": "KOA.OL"
     },
@@ -145,8 +145,8 @@
     "NEL.NO": {
       "currency": "NOK",
       "marketState": "UNKNOWN",
-      "marketTime": 1788177718,
-      "price": 2.085,
+      "marketTime": 1788178327,
+      "price": 2.08,
       "symbol": "NEL.OL"
     },
     "NIO.US": {
@@ -243,20 +243,20 @@
     "VWCE.DE": {
       "currency": "EUR",
       "marketState": "UNKNOWN",
-      "marketTime": 1788177932,
-      "price": 167.56,
+      "marketTime": 1788178518,
+      "price": 167.58,
       "symbol": "VWCE.DE"
     },
     "XDW0.DE": {
       "currency": "EUR",
       "marketState": "UNKNOWN",
-      "marketTime": 1788177995,
-      "price": 65.7,
+      "marketTime": 1788178147,
+      "price": 65.73,
       "symbol": "XDW0.DE"
     }
   },
   "source": "Yahoo Finance server refresh",
   "successCount": 34,
   "totalCount": 35,
-  "updated": "2026-08-31T12:22:33.186697+00:00"
+  "updated": "2026-08-31T12:30:47.497837+00:00"
 }
