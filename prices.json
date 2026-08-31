@@ -4,9 +4,9 @@
   ],
   "fx": {
     "CZK": 1,
-    "EUR": 24.1185,
-    "NOK": 2.2203,
-    "USD": 20.7908
+    "EUR": 24.1176,
+    "NOK": 2.22,
+    "USD": 20.7948
   },
   "quotes": {
     "AAPL.US": {
@@ -40,8 +40,8 @@
     "ASML.NL": {
       "currency": "EUR",
       "marketState": "UNKNOWN",
-      "marketTime": 1788166953,
-      "price": 1477.8,
+      "marketTime": 1788167476,
+      "price": 1478.0,
       "symbol": "ASML.AS"
     },
     "AYRO.US": {
@@ -61,14 +61,14 @@
     "CSG.NL": {
       "currency": "EUR",
       "marketState": "UNKNOWN",
-      "marketTime": 1788166929,
-      "price": 18.596,
+      "marketTime": 1788167295,
+      "price": 18.56,
       "symbol": "CSG.AS"
     },
     "CZG.CZ": {
       "currency": "CZK",
       "marketState": "UNKNOWN",
-      "marketTime": 1788166881,
+      "marketTime": 1788167387,
       "price": 956.0,
       "symbol": "COLT.PR"
     },
@@ -110,7 +110,7 @@
     "KOA.NO": {
       "currency": "NOK",
       "marketState": "UNKNOWN",
-      "marketTime": 1788166730,
+      "marketTime": 1788167336,
       "price": 2.005,
       "symbol": "KOA.OL"
     },
@@ -145,8 +145,8 @@
     "NEL.NO": {
       "currency": "NOK",
       "marketState": "UNKNOWN",
-      "marketTime": 1788166653,
-      "price": 2.095,
+      "marketTime": 1788167447,
+      "price": 2.1,
       "symbol": "NEL.OL"
     },
     "NIO.US": {
@@ -243,20 +243,20 @@
     "VWCE.DE": {
       "currency": "EUR",
       "marketState": "UNKNOWN",
-      "marketTime": 1788166964,
-      "price": 167.62,
+      "marketTime": 1788167397,
+      "price": 167.64,
       "symbol": "VWCE.DE"
     },
     "XDW0.DE": {
       "currency": "EUR",
       "marketState": "UNKNOWN",
-      "marketTime": 1788166898,
-      "price": 65.55,
+      "marketTime": 1788167407,
+      "price": 65.6,
       "symbol": "XDW0.DE"
     }
   },
   "source": "Yahoo Finance server refresh",
   "successCount": 34,
   "totalCount": 35,
-  "updated": "2026-08-31T09:18:02.117727+00:00"
+  "updated": "2026-08-31T09:26:30.407911+00:00"
 }
