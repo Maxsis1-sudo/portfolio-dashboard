@@ -4,9 +4,9 @@
   ],
   "fx": {
     "CZK": 1,
-    "EUR": 24.1196,
-    "NOK": 2.2242,
-    "USD": 20.7959
+    "EUR": 24.1202,
+    "NOK": 2.2233,
+    "USD": 20.7979
   },
   "quotes": {
     "AAPL.US": {
@@ -40,8 +40,8 @@
     "ASML.NL": {
       "currency": "EUR",
       "marketState": "UNKNOWN",
-      "marketTime": 1788176478,
-      "price": 1482.2,
+      "marketTime": 1788177030,
+      "price": 1479.2,
       "symbol": "ASML.AS"
     },
     "AYRO.US": {
@@ -61,15 +61,15 @@
     "CSG.NL": {
       "currency": "EUR",
       "marketState": "UNKNOWN",
-      "marketTime": 1788176290,
-      "price": 18.604,
+      "marketTime": 1788177012,
+      "price": 18.616,
       "symbol": "CSG.AS"
     },
     "CZG.CZ": {
       "currency": "CZK",
       "marketState": "UNKNOWN",
-      "marketTime": 1788176162,
-      "price": 950.0,
+      "marketTime": 1788176544,
+      "price": 952.0,
       "symbol": "COLT.PR"
     },
     "GOOGC.US": {
@@ -110,8 +110,8 @@
     "KOA.NO": {
       "currency": "NOK",
       "marketState": "UNKNOWN",
-      "marketTime": 1788175542,
-      "price": 2.005,
+      "marketTime": 1788176851,
+      "price": 2.01,
       "symbol": "KOA.OL"
     },
     "LI.US": {
@@ -145,7 +145,7 @@
     "NEL.NO": {
       "currency": "NOK",
       "marketState": "UNKNOWN",
-      "marketTime": 1788176178,
+      "marketTime": 1788176865,
       "price": 2.08,
       "symbol": "NEL.OL"
     },
@@ -243,20 +243,20 @@
     "VWCE.DE": {
       "currency": "EUR",
       "marketState": "UNKNOWN",
-      "marketTime": 1788176470,
-      "price": 167.54,
+      "marketTime": 1788177024,
+      "price": 167.52,
       "symbol": "VWCE.DE"
     },
     "XDW0.DE": {
       "currency": "EUR",
       "marketState": "UNKNOWN",
-      "marketTime": 1788176310,
-      "price": 65.6,
+      "marketTime": 1788177008,
+      "price": 65.69,
       "symbol": "XDW0.DE"
     }
   },
   "source": "Yahoo Finance server refresh",
   "successCount": 34,
   "totalCount": 35,
-  "updated": "2026-08-31T11:56:30.113294+00:00"
+  "updated": "2026-08-31T12:05:47.714372+00:00"
 }
