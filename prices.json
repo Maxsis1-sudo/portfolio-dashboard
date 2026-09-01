@@ -4,9 +4,9 @@
   ],
   "fx": {
     "CZK": 1,
-    "EUR": 24.1586,
-    "NOK": 2.2235,
-    "USD": 20.814
+    "EUR": 24.159,
+    "NOK": 2.224,
+    "USD": 20.8183
   },
   "quotes": {
     "AAPL.US": {
@@ -103,7 +103,7 @@
     "IUIT.UK": {
       "currency": "USD",
       "marketState": "UNKNOWN",
-      "marketTime": 1788188607,
+      "marketTime": 1788244380,
       "price": 51.161,
       "symbol": "IUIT.L"
     },
@@ -258,5 +258,5 @@
   "source": "Yahoo Finance server refresh",
   "successCount": 34,
   "totalCount": 35,
-  "updated": "2026-09-01T06:47:02.821477+00:00"
+  "updated": "2026-09-01T06:58:30.861699+00:00"
 }
