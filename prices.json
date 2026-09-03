@@ -4,9 +4,9 @@
   ],
   "fx": {
     "CZK": 1,
-    "EUR": 24.2048,
-    "NOK": 2.2359,
-    "USD": 20.8201
+    "EUR": 24.2067,
+    "NOK": 2.2365,
+    "USD": 20.8301
   },
   "quotes": {
     "AAPL.US": {
@@ -40,8 +40,8 @@
     "ASML.NL": {
       "currency": "EUR",
       "marketState": "UNKNOWN",
-      "marketTime": 1788439517,
-      "price": 1422.0,
+      "marketTime": 1788440580,
+      "price": 1423.8,
       "symbol": "ASML.AS"
     },
     "AYRO.US": {
@@ -61,15 +61,15 @@
     "CSG.NL": {
       "currency": "EUR",
       "marketState": "UNKNOWN",
-      "marketTime": 1788439492,
-      "price": 17.254,
+      "marketTime": 1788440545,
+      "price": 17.32,
       "symbol": "CSG.AS"
     },
     "CZG.CZ": {
       "currency": "CZK",
       "marketState": "UNKNOWN",
-      "marketTime": 1788439270,
-      "price": 921.0,
+      "marketTime": 1788440398,
+      "price": 922.0,
       "symbol": "COLT.PR"
     },
     "GOOGC.US": {
@@ -96,22 +96,22 @@
     "IUFS.UK": {
       "currency": "USD",
       "marketState": "UNKNOWN",
-      "marketTime": 1788438706,
-      "price": 17.12,
+      "marketTime": 1788440430,
+      "price": 17.14,
       "symbol": "IUFS.L"
     },
     "IUIT.UK": {
       "currency": "USD",
       "marketState": "UNKNOWN",
-      "marketTime": 1788439455,
-      "price": 50.9,
+      "marketTime": 1788440525,
+      "price": 50.92,
       "symbol": "IUIT.L"
     },
     "KOA.NO": {
       "currency": "NOK",
       "marketState": "UNKNOWN",
-      "marketTime": 1788437912,
-      "price": 1.996,
+      "marketTime": 1788440416,
+      "price": 1.998,
       "symbol": "KOA.OL"
     },
     "LI.US": {
@@ -145,8 +145,8 @@
     "NEL.NO": {
       "currency": "NOK",
       "marketState": "UNKNOWN",
-      "marketTime": 1788439381,
-      "price": 2.09,
+      "marketTime": 1788439960,
+      "price": 2.1,
       "symbol": "NEL.OL"
     },
     "NIO.US": {
@@ -243,20 +243,20 @@
     "VWCE.DE": {
       "currency": "EUR",
       "marketState": "UNKNOWN",
-      "marketTime": 1788439404,
-      "price": 166.98,
+      "marketTime": 1788440576,
+      "price": 167.06,
       "symbol": "VWCE.DE"
     },
     "XDW0.DE": {
       "currency": "EUR",
       "marketState": "UNKNOWN",
-      "marketTime": 1788439457,
-      "price": 67.51,
+      "marketTime": 1788440405,
+      "price": 67.25,
       "symbol": "XDW0.DE"
     }
   },
   "source": "Yahoo Finance server refresh",
   "successCount": 34,
   "totalCount": 35,
-  "updated": "2026-09-03T13:00:42.159565+00:00"
+  "updated": "2026-09-03T13:18:20.532462+00:00"
 }
