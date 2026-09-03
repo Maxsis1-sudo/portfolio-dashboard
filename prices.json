@@ -4,9 +4,9 @@
   ],
   "fx": {
     "CZK": 1,
-    "EUR": 24.2086,
-    "NOK": 2.2357,
-    "USD": 20.853
+    "EUR": 24.2113,
+    "NOK": 2.2359,
+    "USD": 20.859
   },
   "quotes": {
     "AAPL.US": {
@@ -40,8 +40,8 @@
     "ASML.NL": {
       "currency": "EUR",
       "marketState": "UNKNOWN",
-      "marketTime": 1788426148,
-      "price": 1440.2,
+      "marketTime": 1788426999,
+      "price": 1437.0,
       "symbol": "ASML.AS"
     },
     "AYRO.US": {
@@ -61,15 +61,15 @@
     "CSG.NL": {
       "currency": "EUR",
       "marketState": "UNKNOWN",
-      "marketTime": 1788426063,
-      "price": 17.382,
+      "marketTime": 1788426989,
+      "price": 17.31,
       "symbol": "CSG.AS"
     },
     "CZG.CZ": {
       "currency": "CZK",
       "marketState": "UNKNOWN",
-      "marketTime": 1788426022,
-      "price": 923.0,
+      "marketTime": 1788426936,
+      "price": 920.0,
       "symbol": "COLT.PR"
     },
     "GOOGC.US": {
@@ -96,15 +96,15 @@
     "IUFS.UK": {
       "currency": "USD",
       "marketState": "UNKNOWN",
-      "marketTime": 1788425442,
-      "price": 17.068,
+      "marketTime": 1788426816,
+      "price": 17.08,
       "symbol": "IUFS.L"
     },
     "IUIT.UK": {
       "currency": "USD",
       "marketState": "UNKNOWN",
-      "marketTime": 1788426132,
-      "price": 50.98,
+      "marketTime": 1788426908,
+      "price": 50.96,
       "symbol": "IUIT.L"
     },
     "KOA.NO": {
@@ -243,20 +243,20 @@
     "VWCE.DE": {
       "currency": "EUR",
       "marketState": "UNKNOWN",
-      "marketTime": 1788426150,
-      "price": 166.86,
+      "marketTime": 1788426989,
+      "price": 166.88,
       "symbol": "VWCE.DE"
     },
     "XDW0.DE": {
       "currency": "EUR",
       "marketState": "UNKNOWN",
-      "marketTime": 1788426144,
-      "price": 67.15,
+      "marketTime": 1788426986,
+      "price": 67.13,
       "symbol": "XDW0.DE"
     }
   },
   "source": "Yahoo Finance server refresh",
   "successCount": 34,
   "totalCount": 35,
-  "updated": "2026-09-03T09:18:01.189420+00:00"
+  "updated": "2026-09-03T09:31:58.890407+00:00"
 }
