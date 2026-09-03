@@ -4,9 +4,9 @@
   ],
   "fx": {
     "CZK": 1,
-    "EUR": 24.2082,
-    "NOK": 2.2384,
-    "USD": 20.861
+    "EUR": 24.2091,
+    "NOK": 2.2392,
+    "USD": 20.8663
   },
   "quotes": {
     "AAPL.US": {
@@ -40,8 +40,8 @@
     "ASML.NL": {
       "currency": "EUR",
       "marketState": "UNKNOWN",
-      "marketTime": 1788431385,
-      "price": 1427.2,
+      "marketTime": 1788431899,
+      "price": 1428.4,
       "symbol": "ASML.AS"
     },
     "AYRO.US": {
@@ -61,15 +61,15 @@
     "CSG.NL": {
       "currency": "EUR",
       "marketState": "UNKNOWN",
-      "marketTime": 1788431325,
-      "price": 17.086,
+      "marketTime": 1788431903,
+      "price": 17.072,
       "symbol": "CSG.AS"
     },
     "CZG.CZ": {
       "currency": "CZK",
       "marketState": "UNKNOWN",
-      "marketTime": 1788431253,
-      "price": 921.0,
+      "marketTime": 1788431628,
+      "price": 922.0,
       "symbol": "COLT.PR"
     },
     "GOOGC.US": {
@@ -103,8 +103,8 @@
     "IUIT.UK": {
       "currency": "USD",
       "marketState": "UNKNOWN",
-      "marketTime": 1788431288,
-      "price": 50.8,
+      "marketTime": 1788431868,
+      "price": 50.76,
       "symbol": "IUIT.L"
     },
     "KOA.NO": {
@@ -243,20 +243,20 @@
     "VWCE.DE": {
       "currency": "EUR",
       "marketState": "UNKNOWN",
-      "marketTime": 1788431384,
-      "price": 166.6,
+      "marketTime": 1788431888,
+      "price": 166.58,
       "symbol": "VWCE.DE"
     },
     "XDW0.DE": {
       "currency": "EUR",
       "marketState": "UNKNOWN",
-      "marketTime": 1788431076,
-      "price": 67.3,
+      "marketTime": 1788431860,
+      "price": 67.44,
       "symbol": "XDW0.DE"
     }
   },
   "source": "Yahoo Finance server refresh",
   "successCount": 34,
   "totalCount": 35,
-  "updated": "2026-09-03T10:45:01.155011+00:00"
+  "updated": "2026-09-03T10:53:40.325904+00:00"
 }
