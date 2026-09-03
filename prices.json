@@ -4,9 +4,9 @@
   ],
   "fx": {
     "CZK": 1,
-    "EUR": 24.186,
-    "NOK": 2.2367,
-    "USD": 20.8445
+    "EUR": 24.2056,
+    "NOK": 2.2385,
+    "USD": 20.858
   },
   "quotes": {
     "AAPL.US": {
@@ -40,8 +40,8 @@
     "ASML.NL": {
       "currency": "EUR",
       "marketState": "UNKNOWN",
-      "marketTime": 1788419137,
-      "price": 1449.0,
+      "marketTime": 1788419871,
+      "price": 1441.2,
       "symbol": "ASML.AS"
     },
     "AYRO.US": {
@@ -61,14 +61,14 @@
     "CSG.NL": {
       "currency": "EUR",
       "marketState": "UNKNOWN",
-      "marketTime": 1788419134,
-      "price": 17.368,
+      "marketTime": 1788419866,
+      "price": 17.39,
       "symbol": "CSG.AS"
     },
     "CZG.CZ": {
       "currency": "CZK",
       "marketState": "UNKNOWN",
-      "marketTime": 1788419094,
+      "marketTime": 1788419777,
       "price": 920.0,
       "symbol": "COLT.PR"
     },
@@ -96,22 +96,22 @@
     "IUFS.UK": {
       "currency": "USD",
       "marketState": "UNKNOWN",
-      "marketTime": 1788419026,
-      "price": 17.07,
+      "marketTime": 1788419108,
+      "price": 17.076,
       "symbol": "IUFS.L"
     },
     "IUIT.UK": {
       "currency": "USD",
       "marketState": "UNKNOWN",
-      "marketTime": 1788419121,
+      "marketTime": 1788419837,
       "price": 50.96,
       "symbol": "IUIT.L"
     },
     "KOA.NO": {
       "currency": "NOK",
       "marketState": "UNKNOWN",
-      "marketTime": 1788419061,
-      "price": 1.992,
+      "marketTime": 1788419865,
+      "price": 1.986,
       "symbol": "KOA.OL"
     },
     "LI.US": {
@@ -145,8 +145,8 @@
     "NEL.NO": {
       "currency": "NOK",
       "marketState": "UNKNOWN",
-      "marketTime": 1788419106,
-      "price": 2.09,
+      "marketTime": 1788419697,
+      "price": 2.11,
       "symbol": "NEL.OL"
     },
     "NIO.US": {
@@ -243,8 +243,8 @@
     "VWCE.DE": {
       "currency": "EUR",
       "marketState": "UNKNOWN",
-      "marketTime": 1788419133,
-      "price": 166.7,
+      "marketTime": 1788419799,
+      "price": 166.68,
       "symbol": "VWCE.DE"
     },
     "XDW0.DE": {
@@ -258,5 +258,5 @@
   "source": "Yahoo Finance server refresh",
   "successCount": 34,
   "totalCount": 35,
-  "updated": "2026-09-03T07:20:57.670433+00:00"
+  "updated": "2026-09-03T07:33:03.318897+00:00"
 }
