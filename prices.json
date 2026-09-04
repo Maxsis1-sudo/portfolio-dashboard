@@ -4,9 +4,9 @@
   ],
   "fx": {
     "CZK": 1,
-    "EUR": 24.1938,
-    "NOK": 2.2385,
-    "USD": 20.823
+    "EUR": 24.1939,
+    "NOK": 2.2386,
+    "USD": 20.8337
   },
   "quotes": {
     "AAPL.US": {
@@ -54,8 +54,8 @@
     "BABA.US": {
       "currency": "USD",
       "marketState": "UNKNOWN",
-      "marketTime": 1788551999,
-      "price": 113.22,
+      "marketTime": 1788552070,
+      "price": 113.24,
       "symbol": "BABA"
     },
     "CSG.NL": {
@@ -258,5 +258,5 @@
   "source": "Yahoo Finance server refresh",
   "successCount": 34,
   "totalCount": 35,
-  "updated": "2026-09-04T20:16:21.809847+00:00"
+  "updated": "2026-09-04T20:28:58.066230+00:00"
 }
