@@ -4,9 +4,9 @@
   ],
   "fx": {
     "CZK": 1,
-    "EUR": 24.1846,
-    "NOK": 2.2348,
-    "USD": 20.814
+    "EUR": 24.1804,
+    "NOK": 2.2344,
+    "USD": 20.807
   },
   "quotes": {
     "AAPL.US": {
@@ -40,8 +40,8 @@
     "ASML.NL": {
       "currency": "EUR",
       "marketState": "UNKNOWN",
-      "marketTime": 1788517624,
-      "price": 1451.6,
+      "marketTime": 1788518232,
+      "price": 1453.0,
       "symbol": "ASML.AS"
     },
     "AYRO.US": {
@@ -61,15 +61,15 @@
     "CSG.NL": {
       "currency": "EUR",
       "marketState": "UNKNOWN",
-      "marketTime": 1788517623,
-      "price": 16.556,
+      "marketTime": 1788518185,
+      "price": 16.544,
       "symbol": "CSG.AS"
     },
     "CZG.CZ": {
       "currency": "CZK",
       "marketState": "UNKNOWN",
-      "marketTime": 1788517466,
-      "price": 927.0,
+      "marketTime": 1788518208,
+      "price": 928.0,
       "symbol": "COLT.PR"
     },
     "GOOGC.US": {
@@ -96,22 +96,22 @@
     "IUFS.UK": {
       "currency": "USD",
       "marketState": "UNKNOWN",
-      "marketTime": 1788516685,
+      "marketTime": 1788518080,
       "price": 17.225,
       "symbol": "IUFS.L"
     },
     "IUIT.UK": {
       "currency": "USD",
       "marketState": "UNKNOWN",
-      "marketTime": 1788517594,
+      "marketTime": 1788518123,
       "price": 51.92,
       "symbol": "IUIT.L"
     },
     "KOA.NO": {
       "currency": "NOK",
       "marketState": "UNKNOWN",
-      "marketTime": 1788517601,
-      "price": 1.99,
+      "marketTime": 1788517981,
+      "price": 1.988,
       "symbol": "KOA.OL"
     },
     "LI.US": {
@@ -243,8 +243,8 @@
     "VWCE.DE": {
       "currency": "EUR",
       "marketState": "UNKNOWN",
-      "marketTime": 1788517567,
-      "price": 168.34,
+      "marketTime": 1788518232,
+      "price": 168.32,
       "symbol": "VWCE.DE"
     },
     "XDW0.DE": {
@@ -258,5 +258,5 @@
   "source": "Yahoo Finance server refresh",
   "successCount": 34,
   "totalCount": 35,
-  "updated": "2026-09-04T10:42:19.815295+00:00"
+  "updated": "2026-09-04T10:52:37.093343+00:00"
 }
