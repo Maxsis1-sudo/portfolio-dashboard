@@ -4,9 +4,9 @@
   ],
   "fx": {
     "CZK": 1,
-    "EUR": 24.1903,
-    "NOK": 2.2437,
-    "USD": 20.8116
+    "EUR": 24.1927,
+    "NOK": 2.243,
+    "USD": 20.8115
   },
   "quotes": {
     "AAPL.US": {
@@ -40,8 +40,8 @@
     "ASML.NL": {
       "currency": "EUR",
       "marketState": "UNKNOWN",
-      "marketTime": 1788775918,
-      "price": 1487.4,
+      "marketTime": 1788776696,
+      "price": 1487.0,
       "symbol": "ASML.AS"
     },
     "AYRO.US": {
@@ -61,15 +61,15 @@
     "CSG.NL": {
       "currency": "EUR",
       "marketState": "UNKNOWN",
-      "marketTime": 1788775859,
-      "price": 16.568,
+      "marketTime": 1788776665,
+      "price": 16.54,
       "symbol": "CSG.AS"
     },
     "CZG.CZ": {
       "currency": "CZK",
       "marketState": "UNKNOWN",
-      "marketTime": 1788775730,
-      "price": 932.0,
+      "marketTime": 1788776611,
+      "price": 930.0,
       "symbol": "COLT.PR"
     },
     "GOOGC.US": {
@@ -103,15 +103,15 @@
     "IUIT.UK": {
       "currency": "USD",
       "marketState": "UNKNOWN",
-      "marketTime": 1788775693,
+      "marketTime": 1788776707,
       "price": 51.86,
       "symbol": "IUIT.L"
     },
     "KOA.NO": {
       "currency": "NOK",
       "marketState": "UNKNOWN",
-      "marketTime": 1788775227,
-      "price": 1.99,
+      "marketTime": 1788776668,
+      "price": 1.98,
       "symbol": "KOA.OL"
     },
     "LI.US": {
@@ -243,14 +243,14 @@
     "VWCE.DE": {
       "currency": "EUR",
       "marketState": "UNKNOWN",
-      "marketTime": 1788775884,
-      "price": 168.04,
+      "marketTime": 1788776675,
+      "price": 168.02,
       "symbol": "VWCE.DE"
     },
     "XDW0.DE": {
       "currency": "EUR",
       "marketState": "UNKNOWN",
-      "marketTime": 1788775797,
+      "marketTime": 1788776345,
       "price": 66.34,
       "symbol": "XDW0.DE"
     }
@@ -258,5 +258,5 @@
   "source": "Yahoo Finance server refresh",
   "successCount": 34,
   "totalCount": 35,
-  "updated": "2026-09-07T10:27:11.382299+00:00"
+  "updated": "2026-09-07T10:40:11.227184+00:00"
 }
