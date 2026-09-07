@@ -4,9 +4,9 @@
   ],
   "fx": {
     "CZK": 1,
-    "EUR": 24.1944,
-    "NOK": 2.2436,
-    "USD": 20.804
+    "EUR": 24.1954,
+    "NOK": 2.244,
+    "USD": 20.815
   },
   "quotes": {
     "AAPL.US": {
@@ -40,8 +40,8 @@
     "ASML.NL": {
       "currency": "EUR",
       "marketState": "UNKNOWN",
-      "marketTime": 1788777874,
-      "price": 1486.6,
+      "marketTime": 1788778852,
+      "price": 1485.6,
       "symbol": "ASML.AS"
     },
     "AYRO.US": {
@@ -61,14 +61,14 @@
     "CSG.NL": {
       "currency": "EUR",
       "marketState": "UNKNOWN",
-      "marketTime": 1788777839,
-      "price": 16.484,
+      "marketTime": 1788778844,
+      "price": 16.482,
       "symbol": "CSG.AS"
     },
     "CZG.CZ": {
       "currency": "CZK",
       "marketState": "UNKNOWN",
-      "marketTime": 1788777420,
+      "marketTime": 1788778789,
       "price": 932.0,
       "symbol": "COLT.PR"
     },
@@ -103,15 +103,15 @@
     "IUIT.UK": {
       "currency": "USD",
       "marketState": "UNKNOWN",
-      "marketTime": 1788777806,
-      "price": 51.85,
+      "marketTime": 1788778867,
+      "price": 51.77,
       "symbol": "IUIT.L"
     },
     "KOA.NO": {
       "currency": "NOK",
       "marketState": "UNKNOWN",
-      "marketTime": 1788777413,
-      "price": 1.98,
+      "marketTime": 1788778666,
+      "price": 1.984,
       "symbol": "KOA.OL"
     },
     "LI.US": {
@@ -145,7 +145,7 @@
     "NEL.NO": {
       "currency": "NOK",
       "marketState": "UNKNOWN",
-      "marketTime": 1788777004,
+      "marketTime": 1788778529,
       "price": 2.08,
       "symbol": "NEL.OL"
     },
@@ -243,20 +243,20 @@
     "VWCE.DE": {
       "currency": "EUR",
       "marketState": "UNKNOWN",
-      "marketTime": 1788777842,
-      "price": 168.02,
+      "marketTime": 1788778841,
+      "price": 167.9,
       "symbol": "VWCE.DE"
     },
     "XDW0.DE": {
       "currency": "EUR",
       "marketState": "UNKNOWN",
-      "marketTime": 1788777760,
-      "price": 66.34,
+      "marketTime": 1788778817,
+      "price": 66.52,
       "symbol": "XDW0.DE"
     }
   },
   "source": "Yahoo Finance server refresh",
   "successCount": 34,
   "totalCount": 35,
-  "updated": "2026-09-07T10:59:57.691165+00:00"
+  "updated": "2026-09-07T11:16:10.238805+00:00"
 }
