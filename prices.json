@@ -5,8 +5,8 @@
   "fx": {
     "CZK": 1,
     "EUR": 24.1897,
-    "NOK": 2.2478,
-    "USD": 20.8282
+    "NOK": 2.249,
+    "USD": 20.817
   },
   "quotes": {
     "AAPL.US": {
@@ -40,8 +40,8 @@
     "ASML.NL": {
       "currency": "EUR",
       "marketState": "UNKNOWN",
-      "marketTime": 1788865770,
-      "price": 1514.0,
+      "marketTime": 1788866545,
+      "price": 1517.0,
       "symbol": "ASML.AS"
     },
     "AYRO.US": {
@@ -61,14 +61,14 @@
     "CSG.NL": {
       "currency": "EUR",
       "marketState": "UNKNOWN",
-      "marketTime": 1788865754,
-      "price": 16.412,
+      "marketTime": 1788866535,
+      "price": 16.38,
       "symbol": "CSG.AS"
     },
     "CZG.CZ": {
       "currency": "CZK",
       "marketState": "UNKNOWN",
-      "marketTime": 1788865666,
+      "marketTime": 1788866352,
       "price": 935.0,
       "symbol": "COLT.PR"
     },
@@ -103,14 +103,14 @@
     "IUIT.UK": {
       "currency": "USD",
       "marketState": "UNKNOWN",
-      "marketTime": 1788865770,
-      "price": 51.77,
+      "marketTime": 1788866540,
+      "price": 51.76,
       "symbol": "IUIT.L"
     },
     "KOA.NO": {
       "currency": "NOK",
       "marketState": "UNKNOWN",
-      "marketTime": 1788865518,
+      "marketTime": 1788866356,
       "price": 1.972,
       "symbol": "KOA.OL"
     },
@@ -145,7 +145,7 @@
     "NEL.NO": {
       "currency": "NOK",
       "marketState": "UNKNOWN",
-      "marketTime": 1788865675,
+      "marketTime": 1788866274,
       "price": 2.105,
       "symbol": "NEL.OL"
     },
@@ -243,20 +243,20 @@
     "VWCE.DE": {
       "currency": "EUR",
       "marketState": "UNKNOWN",
-      "marketTime": 1788865756,
-      "price": 167.72,
+      "marketTime": 1788866532,
+      "price": 167.66,
       "symbol": "VWCE.DE"
     },
     "XDW0.DE": {
       "currency": "EUR",
       "marketState": "UNKNOWN",
-      "marketTime": 1788865755,
-      "price": 66.84,
+      "marketTime": 1788866389,
+      "price": 66.85,
       "symbol": "XDW0.DE"
     }
   },
   "source": "Yahoo Finance server refresh",
   "successCount": 34,
   "totalCount": 35,
-  "updated": "2026-09-08T11:24:43.202614+00:00"
+  "updated": "2026-09-08T11:37:43.722887+00:00"
 }
