@@ -4,9 +4,9 @@
   ],
   "fx": {
     "CZK": 1,
-    "EUR": 24.2274,
-    "NOK": 2.2602,
-    "USD": 20.832
+    "EUR": 24.2307,
+    "NOK": 2.2596,
+    "USD": 20.8459
   },
   "quotes": {
     "AAPL.US": {
@@ -40,8 +40,8 @@
     "ASML.NL": {
       "currency": "EUR",
       "marketState": "UNKNOWN",
-      "marketTime": 1788946272,
-      "price": 1501.6,
+      "marketTime": 1788946883,
+      "price": 1495.2,
       "symbol": "ASML.AS"
     },
     "AYRO.US": {
@@ -61,15 +61,15 @@
     "CSG.NL": {
       "currency": "EUR",
       "marketState": "UNKNOWN",
-      "marketTime": 1788946200,
-      "price": 16.278,
+      "marketTime": 1788946850,
+      "price": 16.284,
       "symbol": "CSG.AS"
     },
     "CZG.CZ": {
       "currency": "CZK",
       "marketState": "UNKNOWN",
-      "marketTime": 1788946254,
-      "price": 932.0,
+      "marketTime": 1788946713,
+      "price": 930.0,
       "symbol": "COLT.PR"
     },
     "GOOGC.US": {
@@ -96,15 +96,15 @@
     "IUFS.UK": {
       "currency": "USD",
       "marketState": "UNKNOWN",
-      "marketTime": 1788946259,
-      "price": 16.925,
+      "marketTime": 1788946697,
+      "price": 16.92,
       "symbol": "IUFS.L"
     },
     "IUIT.UK": {
       "currency": "USD",
       "marketState": "UNKNOWN",
-      "marketTime": 1788946279,
-      "price": 51.68,
+      "marketTime": 1788946837,
+      "price": 51.57,
       "symbol": "IUIT.L"
     },
     "KOA.NO": {
@@ -145,8 +145,8 @@
     "NEL.NO": {
       "currency": "NOK",
       "marketState": "UNKNOWN",
-      "marketTime": 1788945120,
-      "price": 2.12,
+      "marketTime": 1788946506,
+      "price": 2.11,
       "symbol": "NEL.OL"
     },
     "NIO.US": {
@@ -243,20 +243,20 @@
     "VWCE.DE": {
       "currency": "EUR",
       "marketState": "UNKNOWN",
-      "marketTime": 1788946254,
-      "price": 167.0,
+      "marketTime": 1788946834,
+      "price": 166.88,
       "symbol": "VWCE.DE"
     },
     "XDW0.DE": {
       "currency": "EUR",
       "marketState": "UNKNOWN",
-      "marketTime": 1788946252,
-      "price": 67.32,
+      "marketTime": 1788946530,
+      "price": 67.34,
       "symbol": "XDW0.DE"
     }
   },
   "source": "Yahoo Finance server refresh",
   "successCount": 34,
   "totalCount": 35,
-  "updated": "2026-09-09T09:46:26.790408+00:00"
+  "updated": "2026-09-09T09:56:35.213975+00:00"
 }
