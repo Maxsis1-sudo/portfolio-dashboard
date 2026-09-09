@@ -4,9 +4,9 @@
   ],
   "fx": {
     "CZK": 1,
-    "EUR": 24.1973,
-    "NOK": 2.2558,
-    "USD": 20.7889
+    "EUR": 24.2023,
+    "NOK": 2.2572,
+    "USD": 20.7832
   },
   "quotes": {
     "AAPL.US": {
@@ -96,8 +96,8 @@
     "IUFS.UK": {
       "currency": "USD",
       "marketState": "UNKNOWN",
-      "marketTime": 1788890729,
-      "price": 17.02,
+      "marketTime": 1788937203,
+      "price": 16.94,
       "symbol": "IUFS.L"
     },
     "IUIT.UK": {
@@ -145,7 +145,7 @@
     "NEL.NO": {
       "currency": "NOK",
       "marketState": "UNKNOWN",
-      "marketTime": 1788877516,
+      "marketTime": 1788937205,
       "price": 2.1,
       "symbol": "NEL.OL"
     },
@@ -258,5 +258,5 @@
   "source": "Yahoo Finance server refresh",
   "successCount": 34,
   "totalCount": 35,
-  "updated": "2026-09-09T06:58:55.171351+00:00"
+  "updated": "2026-09-09T07:15:19.215135+00:00"
 }
