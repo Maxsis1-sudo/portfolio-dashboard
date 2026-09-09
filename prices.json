@@ -4,9 +4,9 @@
   ],
   "fx": {
     "CZK": 1,
-    "EUR": 24.2462,
-    "NOK": 2.2652,
-    "USD": 20.811
+    "EUR": 24.2477,
+    "NOK": 2.2645,
+    "USD": 20.8208
   },
   "quotes": {
     "AAPL.US": {
@@ -40,8 +40,8 @@
     "ASML.NL": {
       "currency": "EUR",
       "marketState": "UNKNOWN",
-      "marketTime": 1788957116,
-      "price": 1473.6,
+      "marketTime": 1788957840,
+      "price": 1476.8,
       "symbol": "ASML.AS"
     },
     "AYRO.US": {
@@ -61,14 +61,14 @@
     "CSG.NL": {
       "currency": "EUR",
       "marketState": "UNKNOWN",
-      "marketTime": 1788957069,
-      "price": 16.29,
+      "marketTime": 1788957802,
+      "price": 16.28,
       "symbol": "CSG.AS"
     },
     "CZG.CZ": {
       "currency": "CZK",
       "marketState": "UNKNOWN",
-      "marketTime": 1788956992,
+      "marketTime": 1788957639,
       "price": 929.0,
       "symbol": "COLT.PR"
     },
@@ -96,21 +96,21 @@
     "IUFS.UK": {
       "currency": "USD",
       "marketState": "UNKNOWN",
-      "marketTime": 1788956958,
-      "price": 16.9,
+      "marketTime": 1788957693,
+      "price": 16.905,
       "symbol": "IUFS.L"
     },
     "IUIT.UK": {
       "currency": "USD",
       "marketState": "UNKNOWN",
-      "marketTime": 1788957109,
-      "price": 51.35,
+      "marketTime": 1788957688,
+      "price": 51.39,
       "symbol": "IUIT.L"
     },
     "KOA.NO": {
       "currency": "NOK",
       "marketState": "UNKNOWN",
-      "marketTime": 1788956952,
+      "marketTime": 1788957581,
       "price": 1.96,
       "symbol": "KOA.OL"
     },
@@ -243,20 +243,20 @@
     "VWCE.DE": {
       "currency": "EUR",
       "marketState": "UNKNOWN",
-      "marketTime": 1788957097,
-      "price": 166.08,
+      "marketTime": 1788957813,
+      "price": 166.18,
       "symbol": "VWCE.DE"
     },
     "XDW0.DE": {
       "currency": "EUR",
       "marketState": "UNKNOWN",
-      "marketTime": 1788956589,
-      "price": 67.43,
+      "marketTime": 1788957775,
+      "price": 67.52,
       "symbol": "XDW0.DE"
     }
   },
   "source": "Yahoo Finance server refresh",
   "successCount": 34,
   "totalCount": 35,
-  "updated": "2026-09-09T12:47:13.263330+00:00"
+  "updated": "2026-09-09T12:59:28.997630+00:00"
 }
