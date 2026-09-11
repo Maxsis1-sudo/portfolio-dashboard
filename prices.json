@@ -5,7 +5,7 @@
   "fx": {
     "CZK": 1,
     "EUR": 24.205,
-    "NOK": 2.2456,
+    "NOK": 2.2479,
     "USD": 20.866
   },
   "quotes": {
@@ -258,5 +258,5 @@
   "source": "Yahoo Finance server refresh",
   "successCount": 34,
   "totalCount": 35,
-  "updated": "2026-09-11T21:08:08.131727+00:00"
+  "updated": "2026-09-11T23:13:13.748701+00:00"
 }
