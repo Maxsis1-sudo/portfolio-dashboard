@@ -26,7 +26,7 @@
     "AMD.US": {
       "currency": "USD",
       "marketState": "UNKNOWN",
-      "marketTime": 1789761601,
+      "marketTime": 1789761602,
       "price": 559.82,
       "symbol": "AMD"
     },
@@ -117,7 +117,7 @@
     "LI.US": {
       "currency": "USD",
       "marketState": "UNKNOWN",
-      "marketTime": 1789761601,
+      "marketTime": 1789761602,
       "price": 12.14,
       "symbol": "LI"
     },
@@ -258,5 +258,5 @@
   "source": "Yahoo Finance server refresh",
   "successCount": 34,
   "totalCount": 35,
-  "updated": "2026-09-19T11:24:23.710007+00:00"
+  "updated": "2026-09-19T14:35:02.737091+00:00"
 }
