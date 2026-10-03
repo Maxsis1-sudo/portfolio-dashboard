@@ -166,7 +166,7 @@
     "NVDA.US": {
       "currency": "USD",
       "marketState": "UNKNOWN",
-      "marketTime": 1790971200,
+      "marketTime": 1790971201,
       "price": 233.95,
       "symbol": "NVDA"
     },
@@ -201,14 +201,14 @@
     "SPCX.US": {
       "currency": "USD",
       "marketState": "UNKNOWN",
-      "marketTime": 1790971200,
+      "marketTime": 1790971201,
       "price": 158.96,
       "symbol": "SPCX"
     },
     "TLRY.US": {
       "currency": "USD",
       "marketState": "UNKNOWN",
-      "marketTime": 1790971200,
+      "marketTime": 1790971201,
       "price": 3.61,
       "symbol": "TLRY"
     },
@@ -258,5 +258,5 @@
   "source": "Yahoo Finance server refresh",
   "successCount": 34,
   "totalCount": 35,
-  "updated": "2026-10-03T08:09:50.453976+00:00"
+  "updated": "2026-10-03T13:21:09.221895+00:00"
 }
