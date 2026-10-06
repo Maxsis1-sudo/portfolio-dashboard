@@ -4,44 +4,44 @@
   ],
   "fx": {
     "CZK": 1,
-    "EUR": 24.402,
-    "NOK": 2.2656,
-    "USD": 21.689
+    "EUR": 24.3973,
+    "NOK": 2.2658,
+    "USD": 21.6705
   },
   "quotes": {
     "AAPL.US": {
       "currency": "USD",
       "marketState": "UNKNOWN",
-      "marketTime": 1791296957,
-      "price": 333.79,
+      "marketTime": 1791315879,
+      "price": 334.13,
       "symbol": "AAPL"
     },
     "ACB.US": {
       "currency": "USD",
       "marketState": "UNKNOWN",
-      "marketTime": 1791296934,
-      "price": 4.44,
+      "marketTime": 1791315884,
+      "price": 4.609,
       "symbol": "ACB"
     },
     "AMD.US": {
       "currency": "USD",
       "marketState": "UNKNOWN",
-      "marketTime": 1791296958,
-      "price": 646.875,
+      "marketTime": 1791315887,
+      "price": 650.6,
       "symbol": "AMD"
     },
     "AMZN.US": {
       "currency": "USD",
       "marketState": "UNKNOWN",
-      "marketTime": 1791296956,
-      "price": 253.97,
+      "marketTime": 1791315888,
+      "price": 256.61,
       "symbol": "AMZN"
     },
     "ASML.NL": {
       "currency": "EUR",
       "marketState": "UNKNOWN",
-      "marketTime": 1791296061,
-      "price": 1643.2,
+      "marketTime": 1791301068,
+      "price": 1636.4,
       "symbol": "ASML.AS"
     },
     "AYRO.US": {
@@ -54,209 +54,209 @@
     "BABA.US": {
       "currency": "USD",
       "marketState": "UNKNOWN",
-      "marketTime": 1791296958,
-      "price": 108.29,
+      "marketTime": 1791315882,
+      "price": 109.32,
       "symbol": "BABA"
     },
     "CSG.NL": {
       "currency": "EUR",
       "marketState": "UNKNOWN",
-      "marketTime": 1791296061,
-      "price": 14.316,
+      "marketTime": 1791300923,
+      "price": 14.37,
       "symbol": "CSG.AS"
     },
     "CZG.CZ": {
       "currency": "CZK",
       "marketState": "UNKNOWN",
-      "marketTime": 1791295663,
-      "price": 877.0,
+      "marketTime": 1791296117,
+      "price": 872.0,
       "symbol": "COLT.PR"
     },
     "GOOGC.US": {
       "currency": "USD",
       "marketState": "UNKNOWN",
-      "marketTime": 1791296960,
-      "price": 343.778,
+      "marketTime": 1791315889,
+      "price": 344.965,
       "symbol": "GOOG"
     },
     "IMMR.US": {
       "currency": "USD",
       "marketState": "UNKNOWN",
-      "marketTime": 1791296717,
-      "price": 7.265,
+      "marketTime": 1791315842,
+      "price": 7.15,
       "symbol": "IMMR"
     },
     "INTC.US": {
       "currency": "USD",
       "marketState": "UNKNOWN",
-      "marketTime": 1791296962,
-      "price": 114.88,
+      "marketTime": 1791315889,
+      "price": 113.34,
       "symbol": "INTC"
     },
     "IUFS.UK": {
       "currency": "USD",
       "marketState": "UNKNOWN",
-      "marketTime": 1791295907,
-      "price": 16.095,
+      "marketTime": 1791302923,
+      "price": 16.075,
       "symbol": "IUFS.L"
     },
     "IUIT.UK": {
       "currency": "USD",
       "marketState": "UNKNOWN",
-      "marketTime": 1791295990,
-      "price": 55.62,
+      "marketTime": 1791309126,
+      "price": 55.58,
       "symbol": "IUIT.L"
     },
     "KOA.NO": {
       "currency": "NOK",
       "marketState": "UNKNOWN",
-      "marketTime": 1791295901,
+      "marketTime": 1791296703,
       "price": 1.976,
       "symbol": "KOA.OL"
     },
     "LI.US": {
       "currency": "USD",
       "marketState": "UNKNOWN",
-      "marketTime": 1791296942,
-      "price": 10.775,
+      "marketTime": 1791315880,
+      "price": 10.875,
       "symbol": "LI"
     },
     "MBLY.US": {
       "currency": "USD",
       "marketState": "UNKNOWN",
-      "marketTime": 1791296963,
-      "price": 7.37,
+      "marketTime": 1791315882,
+      "price": 7.415,
       "symbol": "MBLY"
     },
     "META.US": {
       "currency": "USD",
       "marketState": "UNKNOWN",
-      "marketTime": 1791296954,
-      "price": 740.185,
+      "marketTime": 1791315892,
+      "price": 742.361,
       "symbol": "META"
     },
     "MSFT.US": {
       "currency": "USD",
       "marketState": "UNKNOWN",
-      "marketTime": 1791296958,
-      "price": 534.747,
+      "marketTime": 1791315889,
+      "price": 531.285,
       "symbol": "MSFT"
     },
     "NEL.NO": {
       "currency": "NOK",
       "marketState": "UNKNOWN",
-      "marketTime": 1791295491,
+      "marketTime": 1791296713,
       "price": 2.045,
       "symbol": "NEL.OL"
     },
     "NIO.US": {
       "currency": "USD",
       "marketState": "UNKNOWN",
-      "marketTime": 1791296950,
-      "price": 3.41,
+      "marketTime": 1791315888,
+      "price": 3.485,
       "symbol": "NIO"
     },
     "NVAX.US": {
       "currency": "USD",
       "marketState": "UNKNOWN",
-      "marketTime": 1791296963,
-      "price": 11.29,
+      "marketTime": 1791315890,
+      "price": 11.02,
       "symbol": "NVAX"
     },
     "NVDA.US": {
       "currency": "USD",
       "marketState": "UNKNOWN",
-      "marketTime": 1791296960,
-      "price": 242.15,
+      "marketTime": 1791315888,
+      "price": 239.085,
       "symbol": "NVDA"
     },
     "PFE.US": {
       "currency": "USD",
       "marketState": "UNKNOWN",
-      "marketTime": 1791296966,
-      "price": 27.285,
+      "marketTime": 1791315894,
+      "price": 27.505,
       "symbol": "PFE"
     },
     "PLTR.US": {
       "currency": "USD",
       "marketState": "UNKNOWN",
-      "marketTime": 1791296960,
-      "price": 193.07,
+      "marketTime": 1791315888,
+      "price": 192.98,
       "symbol": "PLTR"
     },
     "PLUG.US": {
       "currency": "USD",
       "marketState": "UNKNOWN",
-      "marketTime": 1791296965,
-      "price": 1.899,
+      "marketTime": 1791315893,
+      "price": 1.86,
       "symbol": "PLUG"
     },
     "SOUN.US": {
       "currency": "USD",
       "marketState": "UNKNOWN",
-      "marketTime": 1791296962,
-      "price": 5.851,
+      "marketTime": 1791315891,
+      "price": 5.745,
       "symbol": "SOUN"
     },
     "SPCX.US": {
       "currency": "USD",
       "marketState": "UNKNOWN",
-      "marketTime": 1791296960,
-      "price": 174.94,
+      "marketTime": 1791315890,
+      "price": 173.14,
       "symbol": "SPCX"
     },
     "TLRY.US": {
       "currency": "USD",
       "marketState": "UNKNOWN",
-      "marketTime": 1791296972,
-      "price": 3.71,
+      "marketTime": 1791315900,
+      "price": 3.785,
       "symbol": "TLRY"
     },
     "TSLA.US": {
       "currency": "USD",
       "marketState": "UNKNOWN",
-      "marketTime": 1791296958,
-      "price": 381.12,
+      "marketTime": 1791315887,
+      "price": 380.99,
       "symbol": "TSLA"
     },
     "TSM.US": {
       "currency": "USD",
       "marketState": "UNKNOWN",
-      "marketTime": 1791296959,
-      "price": 483.68,
+      "marketTime": 1791315887,
+      "price": 481.865,
       "symbol": "TSM"
     },
     "TTWO.US": {
       "currency": "USD",
       "marketState": "UNKNOWN",
-      "marketTime": 1791296960,
-      "price": 203.35,
+      "marketTime": 1791315893,
+      "price": 202.02,
       "symbol": "TTWO"
     },
     "TWLO.US": {
       "currency": "USD",
       "marketState": "UNKNOWN",
-      "marketTime": 1791296945,
-      "price": 290.12,
+      "marketTime": 1791315886,
+      "price": 279.54,
       "symbol": "TWLO"
     },
     "VWCE.DE": {
       "currency": "EUR",
       "marketState": "UNKNOWN",
-      "marketTime": 1791296052,
-      "price": 173.58,
+      "marketTime": 1791300948,
+      "price": 173.56,
       "symbol": "VWCE.DE"
     },
     "XDW0.DE": {
       "currency": "EUR",
       "marketState": "UNKNOWN",
-      "marketTime": 1791296026,
-      "price": 67.82,
+      "marketTime": 1791300970,
+      "price": 67.99,
       "symbol": "XDW0.DE"
     }
   },
   "source": "Yahoo Finance server refresh",
   "successCount": 34,
   "totalCount": 35,
-  "updated": "2026-10-06T14:29:37.189147+00:00"
+  "updated": "2026-10-06T19:45:04.155615+00:00"
 }
