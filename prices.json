@@ -4,9 +4,9 @@
   ],
   "fx": {
     "CZK": 1,
-    "EUR": 24.3136,
-    "NOK": 2.3389,
-    "USD": 21.849
+    "EUR": 24.3218,
+    "NOK": 2.3411,
+    "USD": 21.8689
   },
   "quotes": {
     "AAPL.US": {
@@ -258,5 +258,5 @@
   "source": "Yahoo Finance server refresh",
   "successCount": 34,
   "totalCount": 35,
-  "updated": "2026-10-27T23:58:13.943146+00:00"
+  "updated": "2026-10-28T04:33:02.828119+00:00"
 }
